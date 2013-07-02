@@ -1,0 +1,84 @@
+body {
+  background-color:DarkSlateGray;
+}
+
+h1 {
+  text-align:center;
+  margin:50px auto;
+  font-size:3em;
+  background-color:NavajoWhite;
+}
+
+#turnkeeper {
+  width:650px;
+  height:100px;
+  margin:10px auto;
+  background-color:NavajoWhite;
+}
+
+#turnkeeper h3 {
+  font-size:35px;
+  padding:10px 10px;
+}
+
+#turnkeeper #playerx {
+  float:left;
+}
+
+#turnkeeper #playery {
+  float:right;
+}
+
+#board {
+  width:620px;
+  height:620px;
+  overflow:hidden;
+  margin:50px auto;
+}
+
+#board .tile {
+  background-color:NavajoWhite;
+  display:block;
+  width:200px;
+  height:200px;
+  float:left;
+  border-style:solid;
+  border-color:black;
+}
+
+div.check {
+  font-size:100px;
+}
+
+div#x{
+  margin:50px 75px;
+}
+
+div#o{
+  margin:50px 50px;
+}
+
+
+#top-left.tile,
+#top-center.tile,
+#top-right.tile {
+  border-bottom-width:5px;
+}
+
+#middle-left.tile,
+#middle-center.tile,
+#middle-right.tile {
+  border-bottom-width:5px;
+}
+
+#top-left.tile,
+#middle-left.tile,
+#bottom-left.tile {
+  border-right-width:5px;
+}
+
+#top-center.tile,
+#middle-center.tile,
+#bottom-center.tile {
+  border-right-width:5px;
+}
