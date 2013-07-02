@@ -3,10 +3,18 @@ body {
 }
 
 h1 {
-  text-align:center;
-  margin:50px auto;
   font-size:3em;
-  background-color:NavajoWhite;
+  margin:50px auto;
+}
+
+h1,
+div#turnkeeper p.turn {
+  text-align:center;
+  background-color:NavajoWhite
+}
+
+div#turnkeeper p.turn {
+  font-size:1em;
 }
 
 #turnkeeper {
@@ -57,7 +65,6 @@ div#x{
 div#o{
   margin:50px 50px;
 }
-
 
 #top-left.tile,
 #top-center.tile,

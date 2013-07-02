@@ -7,12 +7,17 @@ $(document).ready(function(){
   var turn_array = player_x;
 
   var next_turn = function() {
+    var button = '<p class="turn">Your move!</p>';
     if (turn === "player_x") {
       turn = "player_y";
       turn_array = player_y;
+      $('#playerx p.turn').remove();
+      $('div#playery').append(button);
     }else {
       turn = "player_x";
       turn_array = player_x;
+      $('#playery p.turn').remove();
+      $('div#playerx').append(button);
     }
   };
 
